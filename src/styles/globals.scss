@@ -26,7 +26,7 @@ h1 {
     gap: 1.5rem;
 }
 
-
+/*Exibição de acordo com o tamanho do dispositivo*/
 @media (min-width: 1024px) {
     .grid {
         grid-template-columns: repeat(4, 1fr);
@@ -47,6 +47,7 @@ h1 {
     }
 }
 
+/*Botão Carregar Mais*/
 .loading {
     text-align: center;
     margin-top: 2rem;

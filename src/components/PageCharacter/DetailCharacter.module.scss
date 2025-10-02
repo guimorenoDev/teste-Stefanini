@@ -1,9 +1,10 @@
+/*estilos de detalhes do personagem*/
 .card {
     background: linear-gradient(180deg, #a9a9a9 0%, #000000 100%) !important;
     color: #f5f5f5;
     padding: 1rem;
-    border-radius: 12px;
     text-align: center;
+    border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.4);
     transition: transform 0.2s ease;
   
@@ -40,7 +41,7 @@
       font-size: 0.8rem;
     }
 }
-
+/*Estilo de cores de acordo com a casa do personagem*/
 .gryffindor {
   background: linear-gradient(180deg, #e37374 0%, #391515 100%) !important;
 }
