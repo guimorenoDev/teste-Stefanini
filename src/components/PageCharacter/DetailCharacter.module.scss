@@ -1,0 +1,58 @@
+.card {
+    background: linear-gradient(180deg, #a9a9a9 0%, #000000 100%) !important;
+    color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    transition: transform 0.2s ease;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  
+    img {
+      width: 100%;
+      max-width: 150px;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+  
+    h2 {
+      font-family: "Georgia", serif;
+      margin-bottom: 0.5rem;
+    }
+      
+  
+    .alive {
+      display: inline-block;
+      background: green;
+      padding: 0.3rem 0.6rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+    }
+  
+    .dead {
+      display: inline-block;
+      background: red;
+      padding: 0.3rem 0.6rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+    }
+}
+
+.gryffindor {
+  background: linear-gradient(180deg, #e37374 0%, #391515 100%) !important;
+}
+
+.slytherin {
+  background: linear-gradient(180deg, #a3c7b0 0%, #194929 100%) !important;
+}
+
+.ravenclaw {
+  background: linear-gradient(180deg, #637ac3 0%, #111523 100%) !important;
+}
+
+.hufflepuff {
+  background: linear-gradient(180deg, #ddcf99 0%, #33280d 100%) !important;
+}
