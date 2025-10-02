@@ -26,6 +26,7 @@ const Home: React.FC = () => {
 
     return (
         <div className="container">
+            <div className="banner"><img src="../../public/castlehogwarts.jpg" alt="" /></div>
             <h1>Personagens Saga Harry Potter</h1>
             <div className="grid">
                 {characters.slice(0, visibleCount).map((c, index) => (
