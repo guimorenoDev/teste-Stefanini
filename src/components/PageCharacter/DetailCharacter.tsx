@@ -9,7 +9,7 @@ const DetailCharacter: React.FC<Props> = ({ name, actor, dateOfBirth, house, pat
 
     return (
         <div className={`${styles.card} ${houseClass}`}>
-            <img src={image || "../public/hpcasaslogo.png"} alt={name} />
+            <img src={image || "../hpcasaslogo.png"} alt={name} />
             <h2>{name}</h2>
             <p><strong>Ator:</strong> {actor}</p>
             <p><strong>Nascimento:</strong> {dateOfBirth || "Desconhecido"}</p>
